@@ -1,0 +1,48 @@
+nav{
+    position: top;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+   
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   justify-content: space-between;
+}
+
+.navbar a{
+        color: white;
+        text-decoration: none;
+        
+}
+
+p{
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1{
+    color: #2c3e50;
+    font-size: 24px;
+}
+
+
+h2{
+    color: #2c3e50;
+    font-size: 20px;
+}
+
+a :not(.navbar a){
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover{
+        text-decoration: underline;
+    }
